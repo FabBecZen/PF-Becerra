@@ -1,0 +1,58 @@
+// Utilities
+@import './utilities/variables';
+@import './utilities/mixins';
+
+.singleSection {
+    @include singlegrid;
+    color: $light-color;
+    background-color: $primary-color;
+    text-align: center;
+}
+
+.doubleSection {
+    @include doublegrid;
+    padding: 0 30px;
+}
+
+.tripleSectionIcon {
+    @include triplegrid;
+    padding: 50px 30px;
+    i {
+        font-size:xx-large;
+    }
+}
+
+.tripleSection {
+    @include triplegrid;
+    background-color: $secondary-color;
+    padding: 20px 60px 0;
+}
+
+.tripleSectionFooter {
+    @include triplegrid;
+    padding: 20px 60px;
+}
+
+.imageContainer {
+    @include imageContainer;
+}
+
+.articleList {
+    ul {
+        padding: 20px;
+        list-style-type: none;
+        li {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            font-weight: lighter;
+            img {
+                padding-right: 10px;
+            }
+            &:hover {
+                background-color: $section-background-hover;
+            }
+        }
+    }
+    
+}
