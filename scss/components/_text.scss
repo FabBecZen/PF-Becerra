@@ -67,3 +67,22 @@ i {
 .inputClear {
     border: none;
 }
+
+input {
+    border-color: $section-background-hover;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+label {
+    font-size: 1rem;
+    color: $dark-color;
+    font-weight: 500;
+    font-family:$main-fonts;
+}
+
+textarea {
+    border-color: $section-background-hover;
+    border-radius: 5px;
+    border-width: 1px;
+}

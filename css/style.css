@@ -173,10 +173,31 @@ nav {
     display: flex;
     align-items: center;
     font-weight: lighter; }
+    .articleList ul li h2 {
+      text-align: left; }
     .articleList ul li img {
       padding-right: 10px; }
     .articleList ul li:hover {
       background-color: rgba(177, 162, 77, 0.356); }
+
+.blogSection {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1em;
+  background-color: #181818;
+  padding: 35px 5%;
+  color: #181818;
+  background-color: #f9f9f9;
+  text-align: justify;
+  padding: 50px 70px; }
+  @media screen and (max-width: 480px) {
+    .blogSection {
+      grid-template-columns: 1fr;
+      gap: 0em; } }
+  .blogSection div {
+    text-align: center; }
+  .blogSection img {
+    align-self: center; }
 
 img {
   max-width: 100%;
@@ -244,6 +265,22 @@ i {
 
 .inputClear {
   border: none; }
+
+input {
+  border-color: rgba(177, 162, 77, 0.356);
+  border-radius: 5px;
+  border-width: 1px; }
+
+label {
+  font-size: 1rem;
+  color: #181818;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+
+textarea {
+  border-color: rgba(177, 162, 77, 0.356);
+  border-radius: 5px;
+  border-width: 1px; }
 
 footer .footerHeader {
   background-color: #181818;
@@ -421,10 +458,31 @@ nav {
     display: flex;
     align-items: center;
     font-weight: lighter; }
+    .articleList ul li h2 {
+      text-align: left; }
     .articleList ul li img {
       padding-right: 10px; }
     .articleList ul li:hover {
       background-color: rgba(177, 162, 77, 0.356); }
+
+.blogSection {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1em;
+  background-color: #181818;
+  padding: 35px 5%;
+  color: #181818;
+  background-color: #f9f9f9;
+  text-align: justify;
+  padding: 50px 70px; }
+  @media screen and (max-width: 480px) {
+    .blogSection {
+      grid-template-columns: 1fr;
+      gap: 0em; } }
+  .blogSection div {
+    text-align: center; }
+  .blogSection img {
+    align-self: center; }
 
 img {
   max-width: 100%;
@@ -492,6 +550,22 @@ i {
 
 .inputClear {
   border: none; }
+
+input {
+  border-color: rgba(177, 162, 77, 0.356);
+  border-radius: 5px;
+  border-width: 1px; }
+
+label {
+  font-size: 1rem;
+  color: #181818;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+
+textarea {
+  border-color: rgba(177, 162, 77, 0.356);
+  border-radius: 5px;
+  border-width: 1px; }
 
 .heroBanner__index {
   width: 100vw;
