@@ -5,7 +5,3 @@
 img {
     @include responsiveImage
 }
-
-.articleImage {
-    @include listImage;
-}
