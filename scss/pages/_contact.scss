@@ -4,7 +4,7 @@
 
 .heroBanner__contact {
     @include heroBanners;
-    background-image: $grey-filter-gradient, url(../assets./images/pexels-fauxels-3183170.webp);
+    background-image: $grey-filter-gradient, url(../assets/images/pexels-fauxels-3183170.webp);
     .bannerText {
         padding: 40px;
         text-align: left;
