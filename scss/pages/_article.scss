@@ -1,0 +1,19 @@
+// Utilities
+@import './utilities/variables';
+@import './utilities/mixins';
+
+.heroBanner__article {
+    @include heroBanners;
+    background-image: $grey-filter-gradient, url(../assets/images/pexels-fauxels-3184357.webp);
+    .bannerText {
+        padding: 40px;
+        text-align: left;
+    }
+}
+
+.articleContent {
+    padding: 50px;
+    p {
+        padding: 10px 0;
+    }
+}

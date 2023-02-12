@@ -600,7 +600,7 @@ textarea {
   background-size: cover;
   position: relative;
   color: #f9f9f9;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/pexels-fauxels-3183170.jpg); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/pexels-fauxels-3184291.webp); }
   .heroBanner__index h1, .heroBanner__index p {
     text-align: center;
     padding: 0 30px; }
@@ -612,7 +612,7 @@ textarea {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1em;
-  background-image: url(../assets/images/paper-style-white-monochrome-background_52683-66443.jpg);
+  background-image: url(../assets/images/paper-style-white-monochrome-background_52683-66443.webp);
   padding: 0 50px; }
   @media screen and (max-width: 767px) {
     .doubleSection__index {
@@ -623,7 +623,7 @@ textarea {
     .doubleSection__index div img {
       display: block; }
 
-.heroBanner__aboutMe {
+.heroBanner__aboutUs {
   width: 100vw;
   height: 500px;
   text-align: center;
@@ -632,11 +632,11 @@ textarea {
   background-size: cover;
   position: relative;
   color: #f9f9f9;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/pexels-mike-murray-5701951.jpg); }
-  .heroBanner__aboutMe h1, .heroBanner__aboutMe p {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/pexels-fauxels-3184299.webp); }
+  .heroBanner__aboutUs h1, .heroBanner__aboutUs p {
     text-align: center;
     padding: 0 30px; }
-  .heroBanner__aboutMe .bannerText {
+  .heroBanner__aboutUs .bannerText {
     padding: 40px;
     text-align: left; }
 
@@ -649,7 +649,7 @@ textarea {
   background-size: cover;
   position: relative;
   color: #f9f9f9;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets./images/pexels-yura-forrat-12158398.jpg); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets./images/pexels-fauxels-3183170.webp); }
   .heroBanner__contact h1, .heroBanner__contact p {
     text-align: center;
     padding: 0 30px; }
@@ -666,7 +666,7 @@ textarea {
   background-size: cover;
   position: relative;
   color: #f9f9f9;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/pexels-tara-winstead-7123050.jpg); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/publicidadonline.webp); }
   .heroBanner__blog h1, .heroBanner__blog p {
     text-align: center;
     padding: 0 30px; }
@@ -690,7 +690,7 @@ textarea {
   .singleSection__blog div {
     text-align: center; }
 
-.heroBanner__demo {
+.heroBanner__article {
   width: 100vw;
   height: 500px;
   text-align: center;
@@ -699,10 +699,15 @@ textarea {
   background-size: cover;
   position: relative;
   color: #f9f9f9;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/pexels-pixabay-159108.jpg); }
-  .heroBanner__demo h1, .heroBanner__demo p {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/pexels-fauxels-3184357.webp); }
+  .heroBanner__article h1, .heroBanner__article p {
     text-align: center;
     padding: 0 30px; }
-  .heroBanner__demo .bannerText {
+  .heroBanner__article .bannerText {
     padding: 40px;
     text-align: left; }
+
+.articleContent {
+  padding: 50px; }
+  .articleContent p {
+    padding: 10px 0; }
